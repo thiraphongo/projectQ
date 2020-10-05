@@ -1,0 +1,295 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Music"
+        android:textColor="#333333"
+        android:textSize="30sp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/img16"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/top5"
+        android:textColor="#333333"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/img11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/img3"
+        android:src="@drawable/delevop" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="340dp"
+        android:text="ผู้พัฒนา"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/img2"
+        android:src="@drawable/music_genres" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="340dp"
+        android:layout_toRightOf="@+id/img2"
+        android:text="แนวเพลง"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/artist" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="340dp"
+        android:text="ศิลปิน"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:text="เพลงทั้งหมด ( All songs )"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/img8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/melbourne" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="590dp"
+        android:text="Melbourne"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_toRightOf="@+id/img8"
+        android:src="@drawable/youngoam" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="590dp"
+        android:text="อัศวินรัตติกาล"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/pang" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="790dp"
+        android:text="คบไม่ได้"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="630dp"
+        android:layout_toRightOf="@+id/img8"
+        android:src="@drawable/bodyslam" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="790dp"
+        android:text="ไม่เข้าท่า"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="830dp"
+        android:src="@drawable/first" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="995dp"
+        android:text="ถ้าเขาจะรัก"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="830dp"
+        android:layout_toRightOf="@+id/img8"
+        android:src="@drawable/win" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="995dp"
+        android:text="คนนั้นต้องเป็นเธอ"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1030dp"
+        android:src="@drawable/youngoam" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="1193dp"
+        android:text="ก่อนนอนคืนนี้"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1030dp"
+        android:layout_toRightOf="@+id/img8"
+        android:src="@drawable/palmy" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="1193dp"
+        android:text="ขวัญเอยขวัญมา"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1230dp"
+        android:src="@drawable/tilly" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="1393dp"
+        android:text="คิด(แต่ไม่)ถึง"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/img38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1230dp"
+        android:layout_toRightOf="@+id/img8"
+        android:src="@drawable/gun" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="1393dp"
+        android:text="วาฬเกยตื้น"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+</ScrollView>
