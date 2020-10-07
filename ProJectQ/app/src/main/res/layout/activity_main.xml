@@ -1,12 +1,12 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scroller"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fillViewport="true" >
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
@@ -39,47 +39,28 @@
         android:id="@+id/img11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="240dp"
-        android:layout_toRightOf="@+id/img3"
+        android:layout_toRightOf="@+id/img2"
         android:src="@drawable/delevop" />
 
     <TextView
         android:id="@+id/textView111"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="270dp"
+        android:layout_marginStart="235dp"
         android:layout_marginTop="340dp"
         android:text="ผู้พัฒนา"
         android:textColor="#333333"
         android:textSize="20sp" />
 
-    <ImageButton
-        android:id="@+id/img3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="240dp"
-        android:layout_toRightOf="@+id/img2"
-        android:src="@drawable/music_genres" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="340dp"
-        android:layout_toRightOf="@+id/img2"
-        android:text="แนวเพลง"
-        android:textColor="#333333"
-        android:textSize="20sp" />
 
     <ImageButton
         android:id="@+id/img2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="240dp"
         android:src="@drawable/artist" />
 
@@ -87,7 +68,7 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="85dp"
         android:layout_marginTop="340dp"
         android:text="ศิลปิน"
         android:textColor="#333333"

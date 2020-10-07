@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="256dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/fluk" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="นักออกแบบ UI/UX (UX/UI Designer)"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="80dp"
+            android:text="ชื่อ-นามสกุล"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="2dp"
+            android:text="   61310030 นายกนกพล หยูเอียด"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/name1"
+            app:layout_constraintTop_toBottomOf="@+id/name1" />
+
+        <TextView
+            android:id="@+id/name8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="170dp"
+            android:text="ประวัติการศึกษา"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="2dp"
+            android:text="  ปัจจุบันกำลังศึกษาสาขา information technology ที่มหาวิทยาลัยนเรศวร"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/name8"
+            app:layout_constraintTop_toBottomOf="@+id/name8" />
+
+        <TextView
+            android:id="@+id/name11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="270dp"
+            android:text="็Hard skill"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="2dp"
+            android:text="  ความรู้พื้นฐานทางภาษาที่ใช้ในการพัฒนาแอปพลิเคชั่น \n   - สกิลด้าน Java (ภาษาที่ใช้ พัฒนาแอปบน Android) \n   - พฤติกรรมหรือวงจรชีวิตของระบบ \n   - อัลกอริทึ่ม หรือ ดีไซนแ์พตเทิร์นต่างๆ
+"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/name11"
+            app:layout_constraintTop_toBottomOf="@+id/name11" />
+
+        <TextView
+            android:id="@+id/name19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="430dp"
+            android:text="Soft Skill"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="2dp"
+            android:text=" - ชอบที่จะศึกษาหาความรู้และพัฒนาตัวเองอยู่เสมอ \n
+- รู้จักการตั้งคําถามและหาแหล่งคําตอบด้วยตัวเอง \n - ทํางานเป็นทีม"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/name19"
+            app:layout_constraintTop_toBottomOf="@+id/name19" />
+
+
+        <TextView
+            android:id="@+id/name25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="550dp"
+            android:text="Contact"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <ImageButton
+            android:id="@+id/img50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="590dp"
+            android:src="@drawable/facebook"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+
+        <ImageButton
+            android:id="@+id/img15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="590dp"
+            android:src="@drawable/map"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="@+id/img50"
+            />
+
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/img50"
+            app:layout_constraintTop_toBottomOf="@+id/img50" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

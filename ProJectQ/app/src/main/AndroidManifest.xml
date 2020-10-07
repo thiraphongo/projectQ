@@ -26,6 +26,19 @@
         <activity android:name=".SecondActivity8"></activity>
         <activity android:name=".SecondActivity9"></activity>
         <activity android:name=".SecondActivity10"></activity>
+        <activity android:name=".SecondActivity11"></activity>
+        <activity android:name=".SecondActivity12"></activity>
+        <activity android:name=".SecondActivity13"></activity>
+        <activity android:name=".SecondActivity14"></activity>
+        <activity android:name=".SecondActivity15"></activity>
+        <activity android:name=".SecondActivity16"></activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCd-U5diUyidnM_R6TknAUBcQQsspYk0nU"/>
+
     </application>
 
 </manifest>
